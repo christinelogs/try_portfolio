@@ -1,0 +1,204 @@
+body {
+  background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Josefin Sans', Arial;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  margin: 0;
+  padding-top: 60px;
+  color: rgb(92, 64, 51);
+  overflow-y: scroll;
+}
+
+html {
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding-left: 2rem;
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.overall-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.name {
+  font-family: 'Dela Gothic One';
+  color: rgb(128, 70, 27);
+  flex: 1;
+  margin-left: 20px;
+  border-left: 3px solid rgb(128, 70, 27);
+  padding-left: 12px;
+}
+
+.my-logo {
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 3px;
+}
+
+.right-section {
+  display: flex;
+  flex: 2;
+}
+
+.home {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: rgb(128, 70, 27);;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(128, 70, 27);
+  transition: color 0.15s;
+}
+
+.about-me {
+  margin-right: 2rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.portfolio {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.contact {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.email-logo,
+.facebook-logo,
+.phone-logo,
+.location-logo {
+  height: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+
+.contact-flex {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+
+.email-info,
+.facebook-info,
+.phone-info,
+.location-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.facebook-link,
+.location-link {
+  color: rgb(92, 64, 51);
+  text-decoration: none;
+}
+
+.facebook-link:hover,
+.location-link:hover {
+  color: rgb(150, 121, 105);
+  transition: color 0.15s;
+}
+
+.input-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input,
+.email-input{
+  font-family: 'Josefin Sans';
+  padding: 10px 20px;
+  flex: 1;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(92, 64, 51);
+  margin-bottom: 10px;
+}
+
+.message-input {
+  font-family: 'Josefin Sans';
+  padding: 10px 20px;
+  flex: 1;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(92, 64, 51);
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#signin textarea {
+  resize:horizontal;
+}
+
+.submit-button {
+  background-color: rgb(92, 64, 51);
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  place-items: center;
+  border-style: none;
+  border-radius: 4px;
+  font-family: 'Josefin Sans';
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  appearance: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}

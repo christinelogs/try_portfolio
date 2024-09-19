@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Josefin Sans', Arial;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  margin: 0;
+  padding-top: 60px;
+  overflow-y: scroll;
+}
+
+html {
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding-left: 2rem;
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Dela Gothic One';
+  color: rgb(128, 70, 27);
+  flex: 1;
+  margin-left: 20px;
+  border-left: 3px solid rgb(128, 70, 27);
+  padding-left: 12px;
+}
+
+.my-logo {
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 3px;
+}
+
+.right-section {
+  display: flex;
+  flex: 2;
+}
+
+.home {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.home-link {
+  text-decoration: none;
+  color: rgb(128, 70, 27);
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(128, 70, 27);
+  transition: color 0.15s;
+}
+
+.about-me {
+  margin-right: 2rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.portfolio {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.contact {
+  flex: 1;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.info {
+  margin-left: 2rem;
+  margin-right: 3rem;
+  color: rgb(92, 64, 51);
+}
+
+.my-picture {
+  width: 100%;
+  border-style: solid;
+  border: none;
+  border-radius: 50%;
+  max-width: 500px;
+}
+
+.introduction {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.position {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 20px;
+  opacity: 0.9;
+}

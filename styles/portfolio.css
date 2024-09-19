@@ -1,0 +1,206 @@
+body {
+  background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+  font-family: 'Josefin Sans', Arial;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(92, 64, 51);
+  padding-left: 220px;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding-left: 2rem;
+  color: white;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Dela Gothic One';
+  color: rgb(128, 70, 27);
+  flex: 1;
+  margin-left: 20px;
+  border-left: 3px solid rgb(128, 70, 27);
+  padding-left: 12px;
+}
+
+.my-logo {
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 3px;
+}
+
+.right-section {
+  display: flex;
+  flex: 2;
+}
+
+.home {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.sidebar {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  color: white;
+  line-height: 25px;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.bsu-rc-nav,
+.tss-nav,
+.pawpals-nav,
+.bsu-sts-nav,
+.psms-nav,
+.sdg-10-nav,
+.fcc-nav {
+  border-top: 2px solid rgb(92, 64, 51);
+  padding: 13px 8px;
+}
+
+.fcc-nav {
+  border-bottom: 2px solid rgb(92, 64, 51);
+}
+
+.nav-link:hover {
+  color: rgb(128, 70, 27);
+  transition: color 0.15s;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: rgb(128, 70, 27);
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(128, 70, 27);
+  transition: color 0.15s;
+}
+
+.about-me {
+  margin-right: 2rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.portfolio {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.contact {
+  flex: 1;
+}
+
+.project-container {
+  border: 2px solid rgb(92, 64, 51);
+  border-radius: 10px;
+  padding: 30px 20px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.project-container:hover {
+  box-shadow: 3px 4px 0 rgba( 0 , 0 , 0 , 0.15 );
+}
+
+.project-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-description {
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.project-link {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(210, 180, 140);
+  border-style: none;
+  border-radius: 2px;
+  display: block;
+  cursor: pointer;
+}
+
+.button-link {
+  color: rgb(92, 64, 51);
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+  font-size: 1.2em;
+}
+
+.project-link:hover {
+  box-shadow: 1px 1px 0 rgba( 0 , 0 , 0 , 0.15 );
+}
+
+.break {
+  display: inline-block;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

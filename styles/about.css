@@ -1,0 +1,186 @@
+body {
+  background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Josefin Sans', Arial;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 220px;
+  padding-right: 30px;
+  color: rgb(92, 64, 51);
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding-left: 2rem;
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Dela Gothic One';
+  color: rgb(128, 70, 27);
+  flex: 1;
+  margin-left: 20px;
+  border-left: 3px solid rgb(128, 70, 27);
+  padding-left: 12px;
+}
+
+.my-logo {
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 3px;
+}
+
+.right-section {
+  display: flex;
+  flex: 2;
+}
+
+.home {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.about-link {
+  text-decoration: none;
+  color: rgb(128, 70, 27);
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(128, 70, 27);
+  transition: color 0.15s;
+}
+
+.sidebar {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  color: white;
+  line-height: 25px;
+  text-align: center;
+}
+
+.academic-achievements-nav,
+.community-engagement-nav,
+.education-nav,
+.events-seminars-nav {
+  border-top: 2px solid rgb(128, 70, 27);
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.events-seminars-nav {
+  border-bottom: 2px solid rgb(128, 70, 27);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(128, 70, 27);
+  transition: color 0.15s;
+}
+
+.about-me {
+  margin-right: 2rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.portfolio {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.contact {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+}
+
+.education-background {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+
+li {
+  line-height: 25px;
+}
+
+.academic-achievements-content,
+.community-engagement-content,
+.education-content,
+.events-seminars-content {
+  border: 2px solid rgb(92, 64, 51);
+  border-radius: 10px;
+  margin-top: 80px;
+  padding: 10px 40px;
+  margin-bottom: 80px;
+}
+
+.education-background {
+  line-height: 25px;
+}
+
+.academic-achievements-content:hover,
+.community-engagement-content:hover,
+.education-content:hover,
+.events-seminars-content:hover {
+  box-shadow: 3px 4px 0 rgba( 0 , 0 , 0 , 0.15 );
+}
+
+.image-grid {
+  display: flex;
+}
+
+.image-symbol {
+  flex: 1;
+  height: 100px;
+  object-fit: cover;
+}
+
+.break {
+  display: inline-block;
+}
